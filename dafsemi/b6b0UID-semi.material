@@ -1,0 +1,40 @@
+material b6b0UID-tracks/semi
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128 
+			texture_unit
+			{
+				texture b6b0UID-semi.dds
+			}
+		}
+		pass
+		{
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture b6b0UID-ampliroll_emissive.dds
+			}
+		}
+	}
+}
+
+material b6b0UID-tracks/semihelp
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture b6b0UID-semihelp.dds
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+material b6b0UID-tracks/semiflat
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture b6b0UID-semiflat.dds
+			}
+		}
+	}
+}

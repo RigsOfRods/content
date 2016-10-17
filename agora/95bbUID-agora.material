@@ -1,0 +1,25 @@
+material 95bbUID-tracks/agora
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater 128 
+			texture_unit
+			{
+				texture 95bbUID-bus2.dds
+			}
+		}
+		pass
+		{
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture 95bbUID-bus2_emissive.dds
+			}
+		}
+	}
+}

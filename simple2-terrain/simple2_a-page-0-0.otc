@@ -1,5 +1,6 @@
 simple2.png
 1
 ; worldSize, diffusespecular, normalheight, blendmap, blendmapmode, alpha
-3.3  , simple2-gravel_diffusespecular.dds , simple2-gravel_normalheight.dds
+3    , simple2-asphalt_diffusespecular.dds, simple2-asphalt_normalheight.dds
+
 

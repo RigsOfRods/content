@@ -3,6 +3,7 @@ Semi trailer (37tons)
 author chassis -1 Pricorde unknown
 author texture -1 Pricorde unknown
 fileinfo b6b0UID,  117,  1
+guid 5888dce1-63e3-473b-81b8-1eae242adc31
 
 globals
 ;mass
@@ -296,8 +297,6 @@ beams
 17,45,i
 22,51,i
 21,49,i
-
-
 
 shocks
 ;critical damp=2*sqrt(mass*spring)

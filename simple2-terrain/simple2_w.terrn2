@@ -10,10 +10,12 @@ SandStormCubeMap = tracks/skyboxcol
 Gravity = -9.81
 CategoryID = 129
 Version = 2
-GUID = dc178e9c-840d-443f-b249-434433ae5fd1
+GUID = 92be3afb-2dd1-4d6a-abb9-6b4d55d3fcf2
 
 [Authors]
 terrain = tdev
+texture = Miura
+update = CuriousMike
 
 [Objects]
 simple2.tobj=

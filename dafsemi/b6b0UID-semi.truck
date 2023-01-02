@@ -7,6 +7,7 @@ globals
 author chassis -1 Pricorde unknown
 author texture -1 G.Rutka&Pricorde unknown
 fileinfo b6b0UID,  160,  1
+guid a87c50a0-e11b-48b6-9cfe-f2de121e7d40
 
 engine
 ;min rpm, max rpm, torque, differential ratio, rear gear, first, second, third, fourth, fifth, sixth
@@ -543,7 +544,6 @@ props
 
 cinecam
 ;x,y,z,bindings
-;0.95, 2.1, 1.92, 86,87,88,89,84,85,54,55
 0.95, 2.1, 1.92, 75,76,77,78,73,74,53,54
 
 ;cabin bottom

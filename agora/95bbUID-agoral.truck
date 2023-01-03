@@ -2,18 +2,15 @@ Bus RVI Agora L
 globals
 ;mass, texture
 18000.0,  1000.0, 95bbUID-tracks/agora
-;FxNormalMap
-;tracks/agora
 
 author chassis -1 Pricorde unknown
 author texture -1 R.Oudet&Pricorde unknown
 fileinfo 95bbUID,  107,  1
+guid 0e943cc8-d9a5-4d24-89fc-907423a0ddfb
 
 engine
 ;min rpm, max rpm, torque, differential ratio, rear gear, first, second, third, fourth, fifth, sixth
 1000.0, 1500.0, 5000.0, 2.00, 10.85, 9.52, 6.56, 5.48, 4.58, 3.83, 3.02, 2.53, 2.08, 1.74, 1.43, 1.20, 1.00, -1.0
-;1500.0, 3000.0, 2870.0, 5.42, 6.0, 6.0, 3.5, 2.8, 2.0, 1.5, -1.0
-;1000.0, 2000.0, 1870.0, 3.42, 6.0, 6.0, 3.0, 1.5, 1.0, 0.75, -1.0
 
 brakes
 20000
@@ -87,7 +84,6 @@ nodes
 58, 9.20, 0.50, 2.50
 59, 9.20, 0.00, 2.50
 ;hook
-; 60,10.07, 0.25, 1.25
 60,10.07, 0.50, 1.25
 ;main rear chassis
 61,10.95, 0.50, 0.00
@@ -553,8 +549,6 @@ beams
 66,70,i
 67,75,i
 68,76,i
-;XXX FIX beam below (346) was duplicate of 390 and nodes (71,77)->(71,77)
-;71,77,i
 72,78
 73,79,i
 74,80
@@ -921,18 +915,16 @@ hydros
 shocks
 ;critical damp=2*sqrt(mass*spring)
 ;id1, id2, spring, damp, short bound, long bound, precomp
-98,77, 1400000, 130000, 0.50, 0.50, 1.0,l
-99,79, 1400000, 130000, 0.50, 0.50, 1.0,r
+98,77, 1400000, 130000, 0.50, 0.50, 1.0,n
+99,79, 1400000, 130000, 0.50, 0.50, 1.0,n
 98,79, 1400000, 130000, 0.50, 0.50, 1.0,n
 99,77, 1400000, 130000, 0.50, 0.50, 1.0,n
-44,102, 800000, 130000, 0.50, 0.50, 1.0,l
-46,103, 800000, 130000, 0.50, 0.50, 1.0,r
-16,107, 800000, 130000, 0.50, 0.50, 1.0,l
-18,109, 800000, 130000, 0.50, 0.50, 1.0,r
+44,102, 800000, 130000, 0.50, 0.50, 1.0,n
+46,103, 800000, 130000, 0.50, 0.50, 1.0,n
+16,107, 800000, 130000, 0.50, 0.50, 1.0,n
+18,109, 800000, 130000, 0.50, 0.50, 1.0,n
 ;upper shock
 147,148, 8000,9000, 0.8, 0.8, 1.0,n
-;56,61, 8000,9000, 1.0, 1.0, 1.0,n
-;58,63, 8000,9000, 1.0, 1.0, 1.0,n
 
 
 wheels
@@ -965,8 +957,12 @@ contacters
 
 ;for rescue
 ropables
+;front
 0
 2
+95
+93
+
 
 flares
 ;ref,x,y,offsetx,offsety (f=front, b=brake, l=left, r=right, R=reverse)

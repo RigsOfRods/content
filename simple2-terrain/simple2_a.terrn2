@@ -1,6 +1,6 @@
 [General]
-Name = Simple Test Terrain
-GeometryConfig = simple2.otc
+Name = Simple Test Terrain Asphalt
+GeometryConfig = simple2_a.otc
 Water=0
 AmbientColor = 1, 1, 1
 //CaelumConfigFile = simple2.os
@@ -9,7 +9,8 @@ SandStormCubeMap = tracks/skyboxcol
 Gravity = -9.81
 CategoryID = 129
 Version = 2
-GUID = dc178e9c-840d-443f-b249-434433ae5fd0
+GUID = c8012a0a-cfbd-4005-8b10-aee9c97a1779
+TractionMap = simple2_landuse.cfg
 
 [Authors]
 terrain = tdev

@@ -16,7 +16,7 @@ WorldSizeZ=1024
 # the factor with what the heightmap values get multiplied with
 WorldSizeY=0
 
-PageFileFormat=simple2-page-0-0.otc
+PageFileFormat=simple2_a-page-0-0.otc
 
 # Sets the default size of blend maps for a new terrain. This is the resolution of each blending layer for a new terrain. default: 1024
 LayerBlendMapSize=128
